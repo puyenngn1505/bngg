@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Space+Grotesk&display=swap');
+body{
+	font-family: 'Roboto Mono', monospace;
+font-family: 'Space Grotesk', sans-serif;
+	color: #515151;
+	margin: 0;
+	font-size: 14px
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #E7E7E7;
+	border-bottom: 1px solid#470001;
+}
+.banner{
+	width: 100%;
+	min-height: 500px;
+}
+aside{
+	width: 100%;
+	min-height: 500px;
+}
+main{
+	width: 100%;
+	min-height: 500px;
+}
+footer{
+	width: 100%;
+	min-height: 350px;
+	background-color: #EEEEEE;
+	
+}
+.logo{
+	padding-top: 8px
+}
+.menu{
+	padding: 25px;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
+}
+.menu ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 20px;
+	color: #353535;
+	font-weight: 550
+		
+}
+.menu ul li a:hover{
+	background-color: #D3316C;
+	color: white
+}
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 8px;
+      height: 8px; 	
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FF4881;
+      text-decoration: none; }
+.text_do{
+	color: #B51B4D;
+}
+aside ul{
+	list-style: none; padding: 0px; margin: 0px; display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #A4A4A4
+}
+aside ul li a{
+	text-decoration: none;
+	color: #A4A4A4;
+	padding: 10px;
+	display: block
+}
+aside ul li a:hover{
+	background-color: #B51B4D;
+	color: white
+}
+.text-giua{
+	text-align: center
+}
+.text-den{
+	color: #151515
+}
+.nenxanh{
+	height: 350px;
+	background-color: #67DFFF;
+	margin: 0px
+}
+.icon20{
+	width: 60px;
+	height: auto;
+	margin: 10px
+}
+.text-dam{
+	font-weight: 700;
+
+}
+.textuser{
+	width: 100%;
+}
+footer ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column
+}
+footer ul li a{
+	text-decoration: none;
+	color: #444444;
+	display: block;
+	border-radius: 20px;
+	padding: 12px
+}
+footer ul li a:hover{
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #1596B8
+}
